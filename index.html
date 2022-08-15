@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.css">
+    <!-- <link rel="stylesheet" href="/global-mobile.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar&family=Anton&family=Inter&family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&family=Playfair+Display&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-wrapper container">
+            <div class="global-logo">
+                <a href="#">Global</a>
+            </div>
+
+            <div class="hamburger-menu">
+                <!-- <input id="menu-toggle" type="checkbox">
+                <label class="menu-btn" for="menu-toggle"> -->
+                <span></span>
+                <!-- </label> -->
+            </div>
+
+            <div class="nav-container">      
+                    <ul class="main-navigation">
+                        <li><a class="active" href="#">Mobile Top Up</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Rate</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+
+                    <div class="sign-up-button">
+                        <a href="#">Sign Up</a>
+                    </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main-wrapper container">
+        <div class="left-side-main-box">
+            <div class="text-wrapper">
+                <h1 class="main-slogan">Now Buy Your <br> PIN or <span class="top-up">Top Up</span> <br> With Bank
+                    Transfer
+                </h1>
+
+                <p class="main-desc">We Make international calling simple, relible, and cheap <br> basedon your unique
+                    calling
+                    behavior.</p>
+
+                <button class="get-started-button">Get Started</button>
+
+
+                <form action="#" method="post" class="search-input-wrapper">
+                    <div>
+                        <input pattern="/[!@#$%^&*()]/g" id="name" class="search-input" type="text" name="user"
+                            placeholder="Where do you want to call?" min="4" max="12">
+                        
+                        <button class="search-button"></button>
+                    </div>
+                </form>
+
+                <section class="regular-user-wrapper">
+
+
+                    <ul class="regular-user-list">
+                        <li><img src="img/img-regular-users/user-1.png" alt="user-1"></li>
+                        <li><img src="img/img-regular-users/user-2.png" alt="user-2"> </li>
+                        <li><img src="img/img-regular-users/user-3.png" alt="user-3"> </li>
+                        <li><img src="img/img-regular-users/plus.svg" alt="any-user" class="user-plus"> </li>
+                    </ul>
+
+
+                    <div class="footer-social container">
+                        <a href="#">45k+ Regular User. <span class="price-footer-orange">View Price Plan</span></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="circle-image-wrapper">
+            <div class="all-circle-wrapper">
+                <div class="grey-range">
+                    <div class="green-circle">
+                        <div class="circle-countries">
+                            <div class="small-brazil"><img src="/img/img-svg-countries/small-brazill.svg" alt="brazil"
+                                    width="110" height="110">
+                            </div>
+                            <div class="big-britian"><img src="/img/img-svg-countries/britian.svg" alt="britian"></div>
+                            <div class="small-italy"><img src="/img/img-svg-countries/italy.svg" alt="italy"></div>
+                            <div class="big-brazil"><img src="/img/img-svg-countries/brazil.svg" alt="big-brazil"></div>
+                            <div class="small-last-brazil"><img src="/img/img-svg-countries/same-small-brazill.svg"
+                                    alt="smal-brail"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="woman-picture"><img src="/img/wondering-woman.png" alt="woman" width="840" height="557"></div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/menu.js"></script>
+
+     <script>
+        const name = document.querySelector('#name');
+        const reg = /[!@#$%^&*()]/g;
+
+        
+        // name.addEventListener('input', (event) => {
+        //     event.target.value = event.target.value.substring(0, 12);
+        //     event.target.value = event.target.value.replace(reg, '');
+            
+        // }) 
+        
+
+        // name.oninput = function () {
+        //     this.value = this.value.substring(0, 12);
+        //     this.value = this.value.replace(reg, '');
+        // } 
+            
+
+
+    </script> 
+</body>
+
+</html>

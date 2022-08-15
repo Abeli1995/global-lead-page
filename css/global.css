@@ -86,7 +86,7 @@ body {
 
 .global-logo::before {
     content: '';
-    background: url(/img/logo.svg);
+    background: url(./img/logo.svg);
     position: absolute;
     width: 40px;
     height: 40px;

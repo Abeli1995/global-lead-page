@@ -163,7 +163,6 @@ body {
 
 .search-input {
     padding: 20px 40px;
-    padding-right: 350px;
     margin-top: 50px;
     font-family: Roboto;
     font-size: 16px;
@@ -171,6 +170,11 @@ body {
     color: var(--gray);
     border-radius: 100px;
     border: none;
+}
+
+/* как сделать этот блок резиновым */
+.button-wrapper input{
+    width: 450px;
 }
 
 .search-input-wrapper {
@@ -454,8 +458,8 @@ body {
         display: block;
         width: 40px;
         height: 40px;
-        top: 25px;
-        right: 10px;
+        top: 40px;
+        right: 40px;
     }
 
     /* Close hamburger */
@@ -563,7 +567,7 @@ body {
 }
 
 .circle-image-wrapper {
-    display: none;
+    margin-left: 120px;
 }
 
 }

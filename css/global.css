@@ -170,15 +170,25 @@ body {
     color: var(--gray);
     border-radius: 100px;
     border: none;
+    
 }
 
+
+
+
 /* как сделать этот блок резиновым */
+.button-wrapper {
+    /* margin-right: 90px; */
+}
+
 .button-wrapper input{
     width: 450px;
 }
 
 .search-input-wrapper {
     position: relative;
+    /* width: 50%;
+    margin: 50px auto; */
 }
 
 .search-button {

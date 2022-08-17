@@ -61,13 +61,13 @@
 
 
                 <form action="#" method="post" class="search-input-wrapper">
+                    <button class="search-button"></button>
                     <div class="button-wrapper">
                         <input pattern="/[!@#$%^&*()]/g" id="name" class="search-input" type="text" name="user"
-                            placeholder="Where do you want to call?" min="4" max="12">
-                        
-                        <button class="search-button"></button>
+                            placeholder="Where do you want to call?">        
                     </div>
                 </form>
+
 
                 <section class="regular-user-wrapper">
 
@@ -115,21 +115,21 @@
     <script src="js/menu.js"></script>
 
      <script>
-        const name = document.querySelector('#name');
-        const reg = /[!@#$%^&*()]/g;
+        // const name = document.querySelector('#name');
+        // const reg = /[!@#$%^&*()]/g;
 
         
-        // name.addEventListener('input', (event) => {
-        //     event.target.value = event.target.value.substring(0, 12);
-        //     event.target.value = event.target.value.replace(reg, '');
+        name.addEventListener('input', (event) => {
+            event.target.value = event.target.value.substring(0, 12);
+            event.target.value = event.target.value.replace(reg, '');
             
-        // }) 
+        }) 
         
 
-        // name.oninput = function () {
-        //     this.value = this.value.substring(0, 12);
-        //     this.value = this.value.replace(reg, '');
-        // } 
+        name.oninput = function () {
+            this.value = this.value.substring(0, 12);
+            this.value = this.value.replace(reg, '');
+        } 
             
 
 

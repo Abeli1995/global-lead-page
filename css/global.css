@@ -414,11 +414,11 @@ body {
 }
 
 .hamburger-menu {
-    /* position: relative;
+    position: relative;
     z-index: 1;
     margin-right: 15px;
     top: 15px;
-    width: 100%; */
+    width: 100%;
     display: none;
 }
 

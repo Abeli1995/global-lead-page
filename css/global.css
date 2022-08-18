@@ -80,8 +80,6 @@ body {
 }
 
 
-
-
 /* Логотип */
 
 .global-logo::before {
@@ -91,8 +89,6 @@ body {
     width: 40px;
     height: 40px;
 }
-
-
 
 .global-logo a {
     text-decoration: none;
@@ -170,10 +166,7 @@ body {
     color: var(--gray);
     border-radius: 100px;
     border: none;
-    
 }
-
-
 
 
 /* как сделать этот блок резиновым */
@@ -181,7 +174,7 @@ body {
     /* margin-right: 90px; */
 }
 
-.button-wrapper input{
+.button-wrapper input {
     width: 450px;
 }
 
@@ -421,20 +414,21 @@ body {
 }
 
 .hamburger-menu {
-    position: absolute;
+    /* position: relative;
     z-index: 1;
-    right: 15px;
+    margin-right: 15px;
     top: 15px;
+    width: 100%; */
     display: none;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 750px) {
     .nav-container {
         display: block;
         background-color: var(--gray);
         position: absolute;
         width: 100%;
-        height: 280px;
+        height: 320px;
         left: 0;
         top: 0;
         left: -100%;
@@ -444,15 +438,17 @@ body {
 
     .nav-container.open-menu {
         left: 0;
+        padding-top: 30px;
+        width: 720px;
     }
 
     .main-navigation {
         display: block;
-        
+
     }
 
     .main-navigation li {
-        padding-top: 15px;
+        padding-top: 25px;
         padding-left: 27px;
         padding-bottom: 15px;
     }
@@ -463,13 +459,12 @@ body {
 
 
     .hamburger-menu {
-        /* заменить на нормальную иконку */
         position: absolute;
         display: block;
         width: 40px;
         height: 40px;
         top: 40px;
-        right: 40px;
+        right: 50px;  
     }
 
     /* Close hamburger */
@@ -544,7 +539,7 @@ body {
         margin-top: 15px;
     }
 
-   
+
     .main-slogan {
         font-family: Poppins;
         font-size: 35px;
@@ -557,27 +552,27 @@ body {
         border: 0;
         padding: 11px 22px;
         border-radius: 30px;
-        width: 120px;
+        width: 130px;
         height: 46px;
         font-family: Poppins;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 500;
         margin-top: 10px;
     }
 
 
-.search-button {
-    background: url(/img/search-loop.svg);
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    right: 0px;
-    border: none;
-    top: 53px;
-}
+    .search-button {
+        background: url(/img/search-loop.svg);
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        right: 0px;
+        border: none;
+        top: 53px;
+    }
 
-.circle-image-wrapper {
-    margin-left: 120px;
-}
+    .circle-image-wrapper {
+        margin-left: 120px;
+    }
 
 }

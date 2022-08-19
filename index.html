@@ -63,7 +63,7 @@
                 <form action="#" method="post" class="search-input-wrapper">
                     <button class="search-button"></button>
                     <div class="button-wrapper">
-                        <input pattern="/[!@#$%^&*()]/g" id="name" class="search-input" type="text" name="user"
+                        <input pattern="/[!@#$%^&*()]/g" id="name" class="search-input" type="text" maxlength="12" name="user"
                             placeholder="Where do you want to call?">        
                     </div>
                 </form>
@@ -115,8 +115,8 @@
     <script src="js/menu.js"></script>
 
      <script>
-        // const name = document.querySelector('#name');
-        // const reg = /[!@#$%^&*()]/g;
+        const name = document.querySelector('#name');
+        const reg = /[!@#$%^&*()]/g;
 
         
         name.addEventListener('input', (event) => {

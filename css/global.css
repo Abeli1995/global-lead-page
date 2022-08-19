@@ -423,6 +423,10 @@ body {
 }
 
 @media (max-width: 750px) {
+
+    .container {
+        max-width: 700px;
+    }
     .nav-container {
         display: block;
         background-color: var(--gray);
@@ -464,7 +468,7 @@ body {
         width: 40px;
         height: 40px;
         top: 40px;
-        right: 50px;  
+        margin-left: 635px;  
     }
 
     /* Close hamburger */
@@ -573,6 +577,17 @@ body {
 
     .circle-image-wrapper {
         margin-left: 120px;
+    }
+
+    .all-circle-wrapper {
+        height: 200px;
+        width: 200px;
+    }
+
+    .woman-picture {
+        position: absolute;
+    top: 150px;
+    right: -400px;
     }
 
 }
